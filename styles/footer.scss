@@ -1,0 +1,45 @@
+$color-font:#535c68;
+
+.footer {
+    grid-row: 6/ 7;
+    grid-column: full-start / full-end;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 5rem 0rem;
+    background-color: #f5f6fa;
+    overflow: hidden;
+    position: relative;
+    
+}
+
+.about {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 1.3rem;
+    font-family: inherit;
+    text-align: right;
+    color: $color-font;
+
+    &--cont {
+        text-align: left;
+
+        &>* {
+            font-weight: 400;
+        }
+    }
+
+}
+
+.copyright {
+    align-self: center;
+    font-size: 1.3rem;
+    font-family: inherit;
+    text-align: right;
+    color: $color-font;
+
+    &>* {
+        font-weight: 400;
+    }
+}

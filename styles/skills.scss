@@ -1,0 +1,21 @@
+.skills{
+    grid-row: 4 / 5;
+    grid-column: center-start/center-end;
+    &-cont{
+        display: grid;
+        grid-gap: 7rem;
+
+        grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+        grid-template-rows: max-content;
+    }
+    &--logo{
+        width: 5rem;
+    }
+}
+.skill{
+    justify-self: end;
+    align-self: center;
+    a{
+        margin-top: 1.5rem;
+    }
+}
