@@ -28,6 +28,7 @@ $bp-large:90rem;
         justify-content: space-between;
         align-items:center;
         width: 30rem;
+        cursor: pointer;
         @media only screen and (min-width:$bp-large){
             width: 40rem;
         }

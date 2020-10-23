@@ -10,12 +10,12 @@
     "deploy": "npm run build && npm run export"
   },
   "dependencies": {
-    
     "lqip-loader": "^2.2.1",
     "next": "9.5.5",
     "next-seo": "^4.14.0",
     "react": "17.0.0",
     "react-dom": "17.0.0",
+    "react-scroll": "^1.8.1",
     "sass": "^1.27.0"
   }
 }
