@@ -6,6 +6,7 @@ export default function Home() {
       <Head>
         <meta name="description" content="Portfolo of Bilal Hussain , web developer experienced in react,node,mongodb. Part time freelancer" />
         <title>Web Developer | Bilal Hussain Portfolio</title>
+        
       </Head>
       <div className="container">
         <nav className="navbar">
@@ -116,7 +117,7 @@ export default function Home() {
           <div className="about">
             <img className="navlist--logo" src="/B.jpeg" alt="Bilal Logo"></img>
             <div className="about--cont margin-left-medium">
-              <h2>Bilal Hussain</h2><br></br>
+              <h2>Bilal Hussain</h2>
               <h3>Full Stack Web Developer & Designer</h3>
             </div>
 

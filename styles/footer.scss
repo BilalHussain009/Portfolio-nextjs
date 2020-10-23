@@ -1,4 +1,5 @@
 $color-font:#535c68;
+$m-bp:60rem;
 
 .footer {
     grid-row: 6/ 7;
@@ -10,7 +11,9 @@ $color-font:#535c68;
     background-color: #f5f6fa;
     overflow: hidden;
     position: relative;
-    
+    @media only screen and (max-width:$m-bp) {
+        flex-direction: column;
+    }
 }
 
 .about {
@@ -21,10 +24,16 @@ $color-font:#535c68;
     font-family: inherit;
     text-align: right;
     color: $color-font;
-
+    @media only screen and (max-width:$m-bp) {
+        flex-direction: column;
+    }
     &--cont {
         text-align: left;
-
+        @media only screen and (max-width:$m-bp) {
+            text-align: center;
+            margin-left: 0;
+            margin-top: 2rem;
+        }
         &>* {
             font-weight: 400;
         }
@@ -38,7 +47,10 @@ $color-font:#535c68;
     font-family: inherit;
     text-align: right;
     color: $color-font;
-
+    @media only screen and (max-width:$m-bp) {
+        text-align: center;
+        margin-top: 2rem;
+    }
     &>* {
         font-weight: 400;
     }

@@ -1,52 +1,71 @@
 $color-font:#535c68;
+$m-bp:60rem;
 
-.header__main{
+.header__main {
     font-size: 2.5rem;
     font-weight: 400;
 }
-.header__sub{
+
+.header__sub {
     font-size: 4rem;
     font-weight: 500;
     text-align: left;
 
 }
-.margin-top-medium{
+
+.margin-top-medium {
     margin-top: 4.5rem;
 }
-.margin-top-small{
+
+.margin-top-small {
     margin-top: 1.8rem;
 }
-.margin-left-small{
+
+.margin-left-small {
     margin-left: 1.8rem;
 }
-.margin-left-medium{
+
+.margin-left-medium {
     margin-left: 4rem;
 }
-.margin-botton-medium{
+
+.margin-botton-medium {
     margin-bottom: 4.5rem;
 }
-.margin-bottom-small{
+
+.margin-bottom-small {
     margin-bottom: 1.8rem;
 }
-.margin-bottom-large{
+
+.margin-bottom-large {
     margin-bottom: 8rem;
 }
-.margin-top-tiny{
+
+.margin-top-tiny {
     margin-top: 1rem;
 }
-.projects__header{
+
+.projects__header {
     font-size: 3.6rem;
     font-weight: 500;
     text-align: left;
-    
+
 }
-.projectHeading{
+
+.projectHeading {
     font-size: 1.9rem;
     font-weight: 500;
     font-family: inherit;
     word-spacing: .2rem;
+
+    @media only screen and (max-width:$m-bp) {
+        text-align: left;
+        margin-left: 0;
+        margin-top: 1rem;
+    }
 }
-.projectDescription{
+
+.projectDescription {
     font-size: 1.6rem;
     font-weight: 400;
     font-family: inherit;
@@ -54,16 +73,19 @@ $color-font:#535c68;
     line-height: 1.8;
     text-align: left;
 }
-.infoCon__info{
-    font-size:1.6rem;
+
+.infoCon__info {
+    font-size: 1.6rem;
     font-family: inherit;
     font-weight: 400;
 }
-.infoCon__emailMe{
+
+.infoCon__emailMe {
     font-size: 1.2rem;
     font-weight: 500;
     color: $color-font;
 }
-.followIcon{
+
+.followIcon {
     width: 4rem;
 }

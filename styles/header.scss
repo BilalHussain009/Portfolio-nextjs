@@ -1,6 +1,8 @@
 $color-font:#535c68;
 $color-primary:#483b97;
 $color-secondary:#5e85bc;
+$m-bp:60rem;
+
 .header {
     // grid-column: ;
     display: grid;
@@ -13,6 +15,11 @@ $color-secondary:#5e85bc;
         clip-path: polygon(50% 0%, 100% 49%, 50% 100%, 0% 50%);
         justify-self: end;
         align-self: center;
+
+        @media only screen and (max-width:$m-bp) {
+            justify-self: center;
+            margin-top: 4rem;
+        }
     }
 
     &__box {
@@ -21,37 +28,41 @@ $color-secondary:#5e85bc;
         justify-content: center;
 
     }
-    &__btnbox{
-      
-        &__work{
+
+    &__btnbox {
+
+        &__work {
             font-family: inherit;
-            padding:  1.1rem 2.2rem;
+            padding: 1.1rem 2.2rem;
             font-weight: 500;
             font-size: 1.5rem;
             border: 1px solid $color-primary;
             background-color: transparent;
-            color:$color-primary;
+            color: $color-primary;
             cursor: pointer;
             transition: all .2s;
             border-radius: 6px;
-            &:hover{
+
+            &:hover {
                 transform: translateY(-2px);
             }
         }
-        &__talk{
+
+        &__talk {
             font-family: inherit;
             padding: 1.1rem 2.2rem;
             font-weight: 500;
             font-size: 1.5rem;
             border: 1px solid transparent;
             background-color: transparent;
-            color:white;
+            color: white;
             cursor: pointer;
-            background-image: linear-gradient(to right,$color-secondary,$color-primary );
+            background-image: linear-gradient(to right, $color-secondary, $color-primary);
             box-shadow: 0 1rem 1rem rgba($color-primary, .15);
             transition: all .2s;
             border-radius: 6px;
-            &:hover{
+
+            &:hover {
                 transform: translateY(-2px);
                 box-shadow: 0 1rem 1rem rgba($color-primary, .20);
 
