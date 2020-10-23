@@ -1,12 +1,13 @@
 import Head from 'next/head'
-import {Html} from "next/document"
+import { Html } from "next/document"
 export default function Home() {
   return (
     <div>
       <Head>
-        <meta name="description" content="Portfolo of Bilal Hussain , web developer experienced in react,node,mongodb. Part time freelancer" />
         <title>Web Developer | Bilal Hussain Portfolio</title>
-        
+        <meta name="description" content="Portfolo of Bilal Hussain , web developer experienced in react,node,mongodb. Part time freelancer" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
       </Head>
       <div className="container">
         <nav className="navbar">
@@ -64,7 +65,7 @@ export default function Home() {
           <h3 className="projects__header margin-bottom-large">What i do.</h3>
           <div className="skills-cont">
             <div className="skill">
-              <img className="skills--logo" src="./SVG/genius.svg" alt="logo-react"/>
+              <img className="skills--logo" src="./SVG/genius.svg" alt="logo-react" />
               <h4 className="projectHeading margin-top-small">Development of SPA</h4>
               <p id="" className="projectDescription margin-top-small">Need a single page app with responsive UI?. I can make beautiful web apps in React based on your design ,or improve old designs to look modern and beautiful</p>
               <a target="_blank" className="projectHeading project__link " href="https://expensify-bilal-app.herokuapp.com/">Contact</a>
@@ -76,7 +77,7 @@ export default function Home() {
               <a target="_blank" className="projectHeading project__link" href="https://expensify-bilal-app.herokuapp.com/">Contact</a>
             </div>
             <div className="skill">
-              <img className="skills--logo" src="./SVG/sphere.svg"  alt="logo-web"/>
+              <img className="skills--logo" src="./SVG/sphere.svg" alt="logo-web" />
               <h4 className="projectHeading margin-top-small">Web design and development </h4>
               <p className="projectDescription margin-top-small">Do you need a fully customized web with impressive UI and UX? look no more i create beautiful web sites and web apps that scale and are SEO friendly.</p>
               <a target="_blank" className="projectHeading project__link" href="https://expensify-bilal-app.herokuapp.com/">Contact</a>
