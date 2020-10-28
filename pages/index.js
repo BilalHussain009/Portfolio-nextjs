@@ -5,8 +5,8 @@ export default function Home() {
   return (
     <div>
       <Head>
-        <title>Web Developer | Bilal Hussain Portfolio</title>
-        <meta name="description" content="Portfolo of Bilal Hussain , web developer experienced in react,node,mongodb. Part time freelancer" />
+        <title>Bilal Hussain | Web Developer | Portfolio</title>
+        <meta name="description" content="Bilal Hussain portfolio,full stack web developer experienced in react,node,mongodb. Part time freelancer" />
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 
       </Head>
@@ -27,8 +27,7 @@ export default function Home() {
 
         <div className="header">
           <div className="header__box">
-            <h3 className="header__main">Hi, my name is Bilal Hussain</h3>
-            <h1 className="header__sub margin-top-medium">I'm a Full Stack Web Developer with expertise in React & Node.js</h1>
+            <h1 className="header__main"><span className="header__main">Hi, my name is Bilal Hussain</span><br></br><br></br> <span className="header__sub ">I'm a Full Stack Web Developer with expertise in React & Node.js</span></h1>
             <div className="header__btnbox margin-top-medium">
               <Link className="header__btnbox__work" to="project1" spy={true}
                 smooth={true}>My Work</Link>
