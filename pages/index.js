@@ -65,6 +65,7 @@ export default function Home() {
             </div>
             <img className="project__img" src="/project2.png" alt="Maldini Fashion Landing Page Image" />
           </div>
+          
           <div className="project">
             <div className="project__info">
               <h4 className="projectHeading">Food Resturant Landing Page</h4>
