@@ -1,0 +1,47 @@
+$color-font:#535c68;
+$color-primary:#483b97;
+$color-secondary:#5e85bc;
+$color-font-dark:#2d3436;
+$bp-large:90rem;
+.navbar{
+    font-size: 2rem;
+    grid-column: center-start / center-end;
+    margin-top: 2rem;
+}
+.navlist{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    &--logo{
+        height: 7rem;
+        max-height: 100%;
+        object-fit: cover;
+        cursor: pointer;
+        &:hover{
+            opacity: 0.8;
+        }
+    }
+    &--links{
+        
+        list-style: none;
+        display: flex;
+        justify-content: space-between;
+        align-items:center;
+        width: 30rem;
+        cursor: pointer;
+        @media only screen and (min-width:$bp-large){
+            width: 40rem;
+        }
+        
+    }
+    &--link{
+        font-family: Roboto,sans-serif;
+        font-size: 1.7rem;
+        font-weight: 500;
+        color: $color-font;
+        transition: all .1s;
+        &:hover{
+            color: $color-font-dark;
+        }
+    }
+}

@@ -1,0 +1,59 @@
+$color-font:#535c68;
+$m-bp:60rem;
+
+.projects {
+    grid-row: 3 / 4;
+    grid-column: center-start / center-end;
+    margin-top: 10rem;
+    text-align: justify;
+
+
+}
+
+.project {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+    
+    margin-bottom: 15rem;
+    @media only screen and (max-width:$m-bp) {
+        margin-bottom: 5rem;
+    }
+    &__info {
+        justify-self: center;
+        align-self: start;
+    }
+
+    &__img {
+        width: 80%;
+        align-self: center;
+        justify-self: end;
+        border-radius: 2rem;
+        box-shadow: 0 1rem 2rem rgba($color-font, .15);
+        @media only screen and (max-width:$m-bp) {
+            justify-self: start;
+            margin-top: 5rem;
+        }
+    }
+
+    &__tags {
+        font-size: 1.4rem;
+        font-weight: 400;
+        color: $color-font;
+    }
+
+    &__links {
+        display: flex;
+
+        @media only screen and (max-width:$m-bp) {
+            flex-direction: column;
+        }
+    }
+
+    &__link {
+        transition: all .2s;
+
+        &:hover {
+            color: $color-font;
+        }
+    }
+}
