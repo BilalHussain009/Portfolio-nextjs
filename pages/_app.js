@@ -6,6 +6,7 @@ import "../styles/projects.scss";
 import "../styles/skills.scss";
 import "../styles/contact.scss";
 import "../styles/footer.scss";
+import "../styles/tech.scss";
 import { DefaultSeo } from "next-seo";
 
 function MyApp({ Component, pageProps }) {

@@ -65,7 +65,7 @@ export default function Home() {
             </div>
             <img className="project__img" src="/project2.png" alt="Maldini Fashion Landing Page Image" />
           </div>
-          
+
           <div className="project">
             <div className="project__info">
               <h4 className="projectHeading">Food Resturant Landing Page</h4>
@@ -97,6 +97,52 @@ export default function Home() {
               <h4 className="projectHeading margin-top-small">Web design and development </h4>
               <p className="projectDescription margin-top-small">Do you need a fully customized web with impressive UI and UX? look no more i create beautiful web sites and web apps that scale and are SEO friendly.</p>
             </div>
+          </div>
+        </section>
+        <section className="tech margin-top-medium">
+          <h3 className="projects__header margin-bottom-large">My Tech Stack</h3>
+          <div className="tech__items">
+            <div className="tech__item">
+              <img className="skills--logo margin-top-small " src="./SVG/react.svg" alt="Bilal Hussain logo React" />
+              <p>React.js</p>
+            </div>
+            <div className="tech__item">
+              <img className="skills--logo margin-top-small " src="./SVG/typescript.svg" alt="Bilal Hussain logo Typescript" />
+              <p>Typescript</p>
+            </div>
+            <div className="tech__item">
+              <img className="skills--logo margin-top-small " src="./SVG/node-dot-js.svg" alt="Bilal Hussain logo Node.js" />
+              <p>Node.js</p>
+            </div>
+            <div className="tech__item">
+              <img className="skills--logo margin-top-small " src="./SVG/mongodb.svg" alt="Bilal Hussain logo MongoDB" />
+              <p>MongoDB</p>
+            </div>
+            <div className="tech__item">
+              <img className="skills--logo margin-top-small " src="./SVG/bootstrap.svg" alt="Bilal Hussain logo BootStrap" />
+              <p>BootStrap</p>
+            </div>
+            <div className="tech__item">
+              <img className="skills--logo margin-top-small " src="./SVG/html5.svg" alt="Bilal Hussain logo HTML" />
+              <p>HTML</p>
+            </div>
+            <div className="tech__item">
+              <img className="skills--logo margin-top-small " src="./SVG/sass.svg" alt="Bilal Hussain logo SASS/CSS" />
+              <p>SASS/CSS</p>
+            </div>
+            <div className="tech__item">
+              <img className="skills--logo margin-top-small " src="./SVG/firebase.svg" alt="Bilal Hussain logo Firebase" />
+              <p>Firebase</p>
+            </div>
+            <div className="tech__item">
+              <img className="skills--logo margin-top-small " src="./SVG/jquery.svg" alt="Bilal Hussain logo Jquery" />
+              <p>Jquery</p>
+            </div>
+            <div className="tech__item">
+              <img className="skills--logo margin-top-small " src="./SVG/mysql.svg" alt="Bilal Hussain logo SQL" />
+              <p>SQL</p>
+            </div>
+            
           </div>
         </section>
         <section className="contact" id="contact1">
