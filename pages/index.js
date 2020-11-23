@@ -5,6 +5,7 @@ export default function Home() {
   return (
     <div>
       <Head>
+        <meta name="google-site-verification" content="ulmw69VpszQCQ2EURISAtVUSQfQEgDxiLtcsheVsdyY" />
         <title>Bilal Hussain | Web Developer | Portfolio</title>
         <meta name="description" content="Bilal Hussain portfolio,full stack web developer experienced in react,node,mongodb. Part time freelancer" />
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
@@ -141,7 +142,7 @@ export default function Home() {
               <img className="skills--logo margin-top-small " src="./SVG/mysql.svg" alt="Bilal Hussain logo SQL" />
               <p>SQL</p>
             </div>
-            
+
           </div>
         </section>
         <section className="contact" id="contact1">
