@@ -8,7 +8,6 @@ export default function Home() {
         <title>Bilal Hussain | Web Developer | Portfolio</title>
         <meta name="description" content="Bilal Hussain portfolio,full stack web developer experienced in react,node,mongodb. Part time freelancer" />
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-
       </Head>
       <div className="container">
         <nav className="navbar">
@@ -20,7 +19,7 @@ export default function Home() {
                 smooth={true}>Contact</Link></li>
               <li className="navlist--link"><Link to="skills1" spy={true}
                 smooth={true}>Services</Link></li>
-              <li className="navlist--link"><a target="_blank" href="https://drive.google.com/file/d/1cDkdUyKCTpCPLKgeq2-Ig-eRImCQNvq4/view?usp=sharing">Resume</a></li>
+              <li className="navlist--link"><a target="_blank" href="https://drive.google.com/file/d/1573srlgRzAfv4k7rV0tcNLYLA7qYFah7/view?usp=sharing">Resume</a></li>
             </div>
           </ul>
         </nav>
