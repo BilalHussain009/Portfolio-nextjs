@@ -4,10 +4,12 @@ import { Link, animateScroll as scroll } from "react-scroll";
 export default function Home() {
   return (
     <div>
+      <h2 className="seoTags">Bilal Hussain Web Developer</h2>
+      <h3 className="seoTags">Bilal Hussain Web Developer</h3>
       <Head>
         <meta name="google-site-verification" content="ulmw69VpszQCQ2EURISAtVUSQfQEgDxiLtcsheVsdyY" />
-        <title>Bilal Hussain | Web Developer | Portfolio</title>
-        <meta name="description" content="Bilal Hussain portfolio,full stack web developer experienced in react,node,mongodb. Part time freelancer" />
+        <title>Bilal Hussain | Web Developer | Portfolio | Bilal Hussain Website | Bilal Hussain Full Stack Web Developer</title>
+        <meta name="description" content="Bilal Hussain portfolio,full stack web developer experienced in react,node,mongodb. Part time freelancer . This is Bilal Hussain's Public Portfolio Website" />
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
       </Head>
       <div className="container">
@@ -78,6 +80,17 @@ export default function Home() {
             </div>
             <img className="project__img" src="/project3.png" alt="Bilal Hussain Resturant App" />
           </div>
+          <div className="project">
+            <div className="project__info">
+              <h4 className="projectHeading">WinWin Labs</h4>
+              <div className="project__tags margin-top-tiny">PHP,CSS,Javascript</div>
+              <p className="projectDescription margin-top-small">Custmized this PHP template to add new Features such as Email Sender Form, exit intent popup , image customization , Google LightHouse score optimzation, SEO optimzations, some bug fixes related to Images etc</p>
+              <div className="project__links margin-top-medium">
+             
+              </div>
+            </div>
+            <img className="project__img" src="/project4.png" alt="Bilal Hussain WinWin Labs Project" />
+          </div>
         </section>
         <section className="skills" id="skills1">
           <h3 className="projects__header margin-bottom-large">What i do.</h3>
@@ -145,6 +158,11 @@ export default function Home() {
 
           </div>
         </section>
+        {/* <section className="aboutme">
+          <h2 className="projects__header margin-bottom-large">About me</h2>
+          
+
+        </section> */}
         <section className="contact" id="contact1">
           <h3 className="projects__header margin-bottom-large">Just say hi.</h3>
           <div className="contactCon">
@@ -188,6 +206,7 @@ export default function Home() {
             <h5>Custom Made</h5>
           </div>
         </footer>
+
       </div>
     </div >
   )
