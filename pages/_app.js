@@ -16,12 +16,12 @@ function MyApp({ Component, pageProps }) {
           openGraph={{
             type: "website",
             locale: "en_IE",
-            url: "http://bilalhussain.live/",
+            url: "http://bilalhussain.online/",
             site_name: "Bilal Hussain",
           }}
           twitter={{
             handle: "@DangerBilu",
-            site: "http://bilalhussain.live/",
+            site: "http://bilalhussain.online/",
             cardType: "summary_large_image",
           }}
         />
