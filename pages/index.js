@@ -2,6 +2,8 @@ import Head from 'next/head'
 import { Link, animateScroll as scroll } from "react-scroll";
 
 export default function Home() {
+  var year = new Date().getFullYear()
+  
   return (
     <div>
       <h2 className="seoTags">Bilal Hussain Web Developer</h2>
@@ -18,10 +20,9 @@ export default function Home() {
             <img className="navlist--logo" src="/B.jpeg" alt="Bilal Logo"></img>
             <div className="navlist--links">
               <li className="navlist--link"><a target="_blank" href="https://github.com/BilalHussain009">Github</a></li>
-              <li className="navlist--link"><Link to="contact1" spy={true}
-                smooth={true}>Contact</Link></li>
-              <li className="navlist--link"><Link to="skills1" spy={true}
-                smooth={true}>Services</Link></li>
+              <li className="navlist--link"><a target="_blank" href="https://stackoverflow.com/users/10436299/bilal">StackOverFlow</a></li>
+
+
               <li className="navlist--link"><a target="_blank" href="https://drive.google.com/file/d/1573srlgRzAfv4k7rV0tcNLYLA7qYFah7/view?usp=sharing">Resume</a></li>
             </div>
           </ul>
@@ -47,7 +48,7 @@ export default function Home() {
             <div className="project__info">
               <h4 className="projectHeading">Single Page React Ecommerce Store,open source </h4>
               <div className="project__tags margin-top-tiny">Ecommerce,SPA</div>
-              <p className="projectDescription margin-top-small">Single Page web app made with react and redux from scratch. Store is integrated with login system and is using firebase for authentication. There is a paypal sand box integration as well, which can be converted to an actual paypal gateway easily</p>
+              <p className="projectDescription margin-top-small">Single Page web app made with react and redux from scratch. Store has login system , cart, review, sorting & search functionality. There is a paypal sand box integration as well, which can be converted to an actual paypal gateway</p>
               <div className="project__links margin-top-medium">
                 <a target="_blank" className="projectHeading project__link" href="http://maldinifashion.herokuapp.com/">Visit maldinifashion.com</a>
                 <a target="_blank" className="projectHeading margin-left-small project__link" href="https://github.com/BilalHussain009/React-Demo-Store-E-commerce">View github repository</a>
@@ -86,7 +87,7 @@ export default function Home() {
               <div className="project__tags margin-top-tiny">PHP,CSS,Javascript</div>
               <p className="projectDescription margin-top-small">Custmized this PHP template to add new Features such as Email Sender Form, exit intent popup , image customization , Google LightHouse score optimzation, SEO optimzations, some bug fixes related to Images etc</p>
               <div className="project__links margin-top-medium">
-             
+
               </div>
             </div>
             <img className="project__img" src="/project4.png" alt="Bilal Hussain WinWin Labs Project" />
@@ -202,7 +203,7 @@ export default function Home() {
 
           </div>
           <div className="copyright">
-            <h4>&#169; 2020 Bilal Hussain</h4>
+            <h4>&#169; {year} Bilal Hussain</h4>
             <h5>Custom Made</h5>
           </div>
         </footer>

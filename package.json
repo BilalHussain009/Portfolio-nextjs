@@ -17,5 +17,8 @@
     "react-dom": "17.0.0",
     "react-scroll": "^1.8.1",
     "sass": "^1.27.0"
+  },
+  "browser": {
+    "child_process": false
   }
 }
