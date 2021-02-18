@@ -23,7 +23,7 @@ export default function Home() {
               <li className="navlist--link"><a target="_blank" href="https://stackoverflow.com/users/10436299/bilal">StackOverFlow</a></li>
 
 
-              <li className="navlist--link"><a target="_blank" href="https://drive.google.com/file/d/1573srlgRzAfv4k7rV0tcNLYLA7qYFah7/view?usp=sharing">Resume</a></li>
+              <li className="navlist--link"><a target="_blank" href="https://drive.google.com/file/d/1HN91JgaYyjT_G_QUSrpSJhSWLEqU0PAJ/view">Resume</a></li>
             </div>
           </ul>
         </nav>
