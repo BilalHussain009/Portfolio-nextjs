@@ -183,11 +183,11 @@ export default function Home() {
               </div>
             </div>
             <div className="contactCon">
-              <form className="contactForm">
-                <input className="contactForm__field margin-bottom-small" type="text" placeholder="Your name*" required />
-                <input className="contactForm__field margin-bottom-small" type="email" placeholder="Your email*" required />
-                <input className="contactForm__field margin-bottom-small" type="text" placeholder="Your Website (if exists)" />
-                <textarea className="contactForm__field margin-bottom-small" placeholder="How can i Help?" rows="3"></textarea>
+              <form className="contactForm" name="contact" netlify>
+                <input className="contactForm__field margin-bottom-small" name="name" type="text" placeholder="Your name*" required />
+                <input className="contactForm__field margin-bottom-small" name="email" type="email" placeholder="Your email*" required />
+                <input className="contactForm__field margin-bottom-small" name="website" type="text" placeholder="Your Website (if exists)" />
+                <textarea className="contactForm__field margin-bottom-small" name="message" placeholder="How can i Help?" rows="3"></textarea>
                 <button className="header__btnbox__talk margin-left-small">Get in Touch</button>
               </form>
             </div>
