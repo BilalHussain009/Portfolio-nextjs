@@ -183,7 +183,7 @@ export default function Home() {
               </div>
             </div>
             <div className="contactCon">
-              <form className="contactForm" name="contact" netlify>
+              <form className="contactForm" name="contact" data-netlify="true">
                 <input className="contactForm__field margin-bottom-small" name="name" type="text" placeholder="Your name*" required />
                 <input className="contactForm__field margin-bottom-small" name="email" type="email" placeholder="Your email*" required />
                 <input className="contactForm__field margin-bottom-small" name="website" type="text" placeholder="Your Website (if exists)" />
