@@ -20,7 +20,7 @@ export default function Home() {
                 smooth={true}>Contact</Link></li>
               <li className="navlist--link"><Link to="skills1" spy={true}
                 smooth={true}>Services</Link></li>
-              <li className="navlist--link"><a target="_blank" href="https://drive.google.com/file/d/1cDkdUyKCTpCPLKgeq2-Ig-eRImCQNvq4/view?usp=sharing">Resume</a></li>
+              <li className="navlist--link"><a target="_blank" href="#">Resume</a></li>
             </div>
           </ul>
         </nav>
