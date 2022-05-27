@@ -23,7 +23,7 @@ export default function Home() {
               <li className="navlist--link"><a target="_blank" href="https://stackoverflow.com/users/10436299/bilal">StackOverFlow</a></li>
 
 
-              <li className="navlist--link"><a target="_blank" href="#">Resume</a></li>
+              <li className="navlist--link"><a target="_blank" href="https://drive.google.com/file/d/15c79yZAYA4eRtIr9oUj-GWNO-_fc1FbU/view?usp=sharing">Resume</a></li>
             </div>
           </ul>
         </nav>
@@ -40,7 +40,7 @@ export default function Home() {
             </div>
 
           </div>
-          <img className="header__img" src="/kek.png" alt="Bilal Hussain Portfoilo Image" />
+          <img className="header__img" src="/profile.png" alt="Bilal Hussain Portfoilo Image" />
         </div>
         <section className="projects" id="project1">
           <h3 className="projects__header margin-bottom-large">Latest projects</h3>
@@ -48,7 +48,7 @@ export default function Home() {
             <div className="project__info">
               <h4 className="projectHeading">Single Page React Ecommerce Store,open source </h4>
               <div className="project__tags margin-top-tiny">Ecommerce,SPA</div>
-              <p className="projectDescription margin-top-small">Single Page web app made with react and redux from scratch. Store has login system , cart, review, sorting & search functionality. There is a paypal sand box integration as well, which can be converted to an actual paypal gateway</p>
+              <p className="projectDescription margin-top-small">Single page web app made with react and redux from scratch. The store has a login system, cart, review, sorting & search functionality. There is a PayPal sandbox integration as well, which can be converted to an actual PayPal gateway.</p>
               <div className="project__links margin-top-medium">
                 <a target="_blank" className="projectHeading project__link" href="http://maldinifashion.herokuapp.com/">Visit maldinifashion.com</a>
                 <a target="_blank" className="projectHeading margin-left-small project__link" href="https://github.com/BilalHussain009/React-Demo-Store-E-commerce">View github repository</a>
@@ -60,7 +60,7 @@ export default function Home() {
             <div className="project__info">
               <h4 className="projectHeading">Expense Manager SPA </h4>
               <div className="project__tags margin-top-tiny">React,Firebase,Node</div>
-              <p className="projectDescription margin-top-small">A small expense app built to manage daily expenses, it records income and expenses and calculate the total amount spent and the remaining balance.</p>
+              <p className="projectDescription margin-top-small">A small expense app built to manage daily expenses and income, this app calculates the total amount spent and the remaining balance.</p>
               <div className="project__links margin-top-medium">
                 <a target="_blank" className="projectHeading project__link" href="https://expensify-bilal-app.herokuapp.com/">Visit App</a>
                 <a target="_blank" className="projectHeading margin-left-small project__link" href="https://github.com/BilalHussain009/Expensify-app-bilal">View github repository</a>
@@ -73,7 +73,7 @@ export default function Home() {
             <div className="project__info">
               <h4 className="projectHeading">Food Resturant Landing Page</h4>
               <div className="project__tags margin-top-tiny">HTML,CSS,BootStrap,Jquery</div>
-              <p className="projectDescription margin-top-small">A landing page built for Omni Food Resturant , the page is fully responsive and have responsive images. It is built with Pure HTML, CSS and bootstrap. The Page features some small animations and trasnitions as well.</p>
+              <p className="projectDescription margin-top-small">A landing page built for Omni Food Restaurant, the page is fully responsive and has responsive images. It is built with pure HTML, CSS, and bootstrap. The Page features some small animations and transitions as well.</p>
               <div className="project__links margin-top-medium">
                 <a target="_blank" className="projectHeading project__link" href="https://bilalhussain009.github.io/omnifood/">Visit website</a>
                 <a target="_blank" className="projectHeading margin-left-small project__link" href="https://github.com/BilalHussain009/omnifood">View github repository</a>
@@ -85,7 +85,7 @@ export default function Home() {
             <div className="project__info">
               <h4 className="projectHeading">WinWin Labs</h4>
               <div className="project__tags margin-top-tiny">PHP,CSS,Javascript</div>
-              <p className="projectDescription margin-top-small">Custmized this PHP template to add new Features such as Email Sender Form, exit intent popup , image customization , Google LightHouse score optimzation, SEO optimzations, some bug fixes related to Images etc</p>
+              <p className="projectDescription margin-top-small">I customized this PHP template to add new features such as email sender form, exit-intent popup, image customization, Google lighthouse score optimization, SEO optimizations, some bug fixes related to Images, etc.</p>
               <div className="project__links margin-top-medium">
 
               </div>
@@ -99,12 +99,12 @@ export default function Home() {
             <div className="skill">
               <img className="skills--logo" src="./SVG/genius.svg" alt="logo-react" />
               <h4 className="projectHeading margin-top-small">Development of SPA</h4>
-              <p id="" className="projectDescription margin-top-small">Need a single page app with responsive UI?. I can make beautiful web apps in React based on your design ,or improve old designs to look modern and beautiful</p>
+              <p id="" className="projectDescription margin-top-small">Need a single-page app with responsive UI?. I can make beautiful web apps in React based on your design,or improve old designs to look modern and beautiful.</p>
             </div>
             <div className="skill">
               <img className="skills--logo" src="./SVG/node-dot-js.svg" alt="logo-node" />
               <h4 className="projectHeading margin-top-small">REST API </h4>
-              <p className="projectDescription margin-top-small">I can create REST api's from scratch. I will provide login authentications , file management, database schema , database maintenance </p>
+              <p className="projectDescription margin-top-small">I can create REST APIs from scratch. I will provide login authentications, file management, database schema, database maintenance.</p>
             </div>
             <div className="skill">
               <img className="skills--logo" src="./SVG/sphere.svg" alt="logo-web" />
@@ -117,8 +117,8 @@ export default function Home() {
           <h3 className="projects__header margin-bottom-large">My Tech Stack</h3>
           <div className="tech__items">
             <div className="tech__item">
-              <img className="skills--logo margin-top-small " src="./SVG/react.svg" alt="Bilal Hussain logo React" />
-              <p>React.js</p>
+              <img className="skills--logo margin-top-small " src="./SVG/react.svg" alt="Bilal Hussain logo React react-native" />
+              <p>React</p>
             </div>
             <div className="tech__item">
               <img className="skills--logo margin-top-small " src="./SVG/typescript.svg" alt="Bilal Hussain logo Typescript" />
@@ -133,24 +133,24 @@ export default function Home() {
               <p>MongoDB</p>
             </div>
             <div className="tech__item">
-              <img className="skills--logo margin-top-small " src="./SVG/bootstrap.svg" alt="Bilal Hussain logo BootStrap" />
-              <p>BootStrap</p>
+              <img className="skills--logo margin-top-small " src="./SVG/nextjs.svg" alt="Bilal Hussain logo nextjs" />
+              <p>Next.js</p>
             </div>
             <div className="tech__item">
-              <img className="skills--logo margin-top-small " src="./SVG/html5.svg" alt="Bilal Hussain logo HTML" />
-              <p>HTML</p>
+              <img className="skills--logo margin-top-small " src="./SVG/linux.png" alt="Bilal Hussain logo linux" />
+              <p>Linux</p>
             </div>
             <div className="tech__item">
-              <img className="skills--logo margin-top-small " src="./SVG/sass.svg" alt="Bilal Hussain logo SASS/CSS" />
-              <p>SASS/CSS</p>
+              <img className="skills--logo margin-top-small " src="./SVG/python.svg" alt="Bilal Hussain logo python" />
+              <p>Python</p>
             </div>
             <div className="tech__item">
               <img className="skills--logo margin-top-small " src="./SVG/firebase.svg" alt="Bilal Hussain logo Firebase" />
               <p>Firebase</p>
             </div>
             <div className="tech__item">
-              <img className="skills--logo margin-top-small " src="./SVG/jquery.svg" alt="Bilal Hussain logo Jquery" />
-              <p>Jquery</p>
+              <img className="skills--logo margin-top-small " src="./SVG/android.svg" alt="Bilal Hussain logo android" />
+              <p>Android</p>
             </div>
             <div className="tech__item">
               <img className="skills--logo margin-top-small " src="./SVG/mysql.svg" alt="Bilal Hussain logo SQL" />
@@ -168,7 +168,7 @@ export default function Home() {
           <h3 className="projects__header margin-bottom-large">Just say hi.</h3>
           <div className="contactCon">
             <div className="infoCon">
-              <h4 className="infoCon__info margin-botton-medium">I am available to discuss your project details, and help you with your web app design and development.</h4>
+              <h4 className="infoCon__info margin-botton-medium">I am available to discuss your project details and help you with your web app design and development.</h4>
               <div className="infoCon--emailDiv margin-botton-medium">
                 <h5 className="infoCon__emailMe">Email me at</h5>
                 <h5 className="projectHeading project__link ">bhussain.bese17seecs@seecs.edu.pk</h5>
