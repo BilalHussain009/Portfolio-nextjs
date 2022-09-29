@@ -1,11 +1,11 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap");
-$m-bp:60rem;
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;700&display=swap");
+$m-bp: 60rem;
 
 html,
 body {
   padding: 0;
   margin: 0;
-  font-family: Roboto, sans-serif;
+  font-family: Outfit, sans-serif;
   font-size: 62%;
 }
 
@@ -31,4 +31,48 @@ a {
     grid-template-columns: [full-start] minmax(3rem, 1fr) [center-start] repeat(8, [col-start] minmax(min-content, 14rem) [col-end]) [center-end] minmax(3rem, 1fr) [full-end];
   }
 
+}
+
+.flex {
+  display: flex;
+
+  &_col {
+    display: flex;
+    flex-direction: column;
+
+    &_center {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+
+    &_end {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-end;
+    }
+    &_between{
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+  }
+
+  &_row {
+    display: flex;
+    flex-direction: row;
+
+    &_center {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+    }
+
+    &_end {
+      display: flex;
+      flex-direction: row;
+      align-items: flex-end;
+    }
+  }
 }

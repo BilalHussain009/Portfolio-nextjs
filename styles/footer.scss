@@ -2,12 +2,11 @@ $color-font:#535c68;
 $m-bp:60rem;
 .footer {
     grid-row: 8 / 9;
-    grid-column: full-start / full-end;
+    grid-column: center-start / center-end;
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
     padding: 5rem 0rem;
-    background-color: #f5f6fa;
     overflow: hidden;
     position: relative;
     @media only screen and (max-width:$m-bp) {

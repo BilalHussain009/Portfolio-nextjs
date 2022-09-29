@@ -1,7 +1,8 @@
-$color-font:#535c68;
-$color-primary:#483b97;
-$color-secondary:#5e85bc;
-$m-bp:60rem;
+$color-font: #535c68;
+$color-primary: #483b97;
+$color-secondary: #5e85bc;
+$color-tertiary: #1c173a;
+$m-bp: 60rem;
 
 .header {
     // grid-column: ;
@@ -10,12 +11,18 @@ $m-bp:60rem;
     grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
     margin-top: 10rem;
 
-    &__img {
+    &__cont {
+        filter: drop-shadow(15px 11px 43px #1c173a);
         width: 75%;
-        clip-path: polygon(50% 0%, 100% 49%, 50% 100%, 0% 50%);
         justify-self: end;
         align-self: center;
+        height: 100%;
+    }
 
+    &__img {
+        clip-path: polygon(50% 0%, 100% 49%, 50% 100%, 0% 50%);
+        width: 100%;
+        
         @media only screen and (max-width:$m-bp) {
             justify-self: center;
             margin-top: 4rem;
@@ -57,14 +64,19 @@ $m-bp:60rem;
             background-color: transparent;
             color: white;
             cursor: pointer;
-            background-image: linear-gradient(to right, $color-secondary, $color-primary);
-            box-shadow: 0 1rem 1rem rgba($color-primary, .15);
-            transition: all .2s;
+            background-image: linear-gradient(to right, $color-primary, $color-tertiary);
+            box-shadow: 8px 9px 30px -6px $color-tertiary;
+            transition: all .3s;
             border-radius: 6px;
 
             &:hover {
                 transform: translateY(-2px);
-                box-shadow: 0 1rem 1rem rgba($color-primary, .20);
+                box-shadow: 8px 9px 9px -6px $color-tertiary;
+
+            }
+
+            &:active {
+                box-shadow: none;
 
             }
         }

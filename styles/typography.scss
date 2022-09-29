@@ -1,5 +1,5 @@
-$color-font:#535c68;
-$m-bp:60rem;
+$color-font: #535c68;
+$m-bp: 60rem;
 
 .header__main {
     font-size: 2.5rem;
@@ -19,6 +19,10 @@ $m-bp:60rem;
 
 .margin-top-small {
     margin-top: 1.8rem;
+}
+
+.margin-top-large {
+    margin-top: 6.8rem;
 }
 
 .margin-left-small {
@@ -89,6 +93,7 @@ $m-bp:60rem;
 .followIcon {
     width: 4rem;
 }
-.seoTags{
+
+.seoTags {
     display: none;
 }

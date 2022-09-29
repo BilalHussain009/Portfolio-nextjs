@@ -1,5 +1,7 @@
-$color-font:#535c68;
-$m-bp:60rem;
+$color-font: #535c68;
+$m-bp: 60rem;
+$color-tertiary: #1c173a;
+$color-primary: #483b97;
 
 .projects {
     grid-row: 3 / 4;
@@ -11,49 +13,56 @@ $m-bp:60rem;
 }
 
 .project {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
-    
-    margin-bottom: 15rem;
+    background: #FFEEEE;
+    border: 1px solid #f0e5d2;
+    border-radius: 1.2rem;
+    overflow: hidden;
+    gap: 5rem;
     @media only screen and (max-width:$m-bp) {
-        margin-bottom: 5rem;
+        flex-direction: column;
     }
-    &__info {
-        justify-self: center;
-        align-self: start;
-    }
+    &__description {
+        flex: 5%;
+        padding: 2rem;
 
-    &__img {
-        width: 80%;
-        align-self: center;
-        justify-self: end;
-        border-radius: 2rem;
-        box-shadow: 0 1rem 2rem rgba($color-font, .15);
-        @media only screen and (max-width:$m-bp) {
-            justify-self: start;
-            margin-top: 5rem;
+        &__header {
+            &__name {
+                font-size: 2.8rem;
+                font-weight: 500;
+            }
+
+            &__tags {
+                font-size: 1.6rem;
+                font-weight: 400;
+                color: $color-primary;
+            }
+        }
+
+        &__text {
+            font-size: 1.6rem;
+            font-weight: 400;
+            color: $color-tertiary;
+            line-height: 2.5rem;
+            letter-spacing: .1rem;
+        }
+
+        &__links {
+            margin-top: 10rem;
+            margin-bottom: 1.1rem;
         }
     }
 
-    &__tags {
-        font-size: 1.4rem;
-        font-weight: 400;
-        color: $color-font;
-    }
-
-    &__links {
-        display: flex;
-
-        @media only screen and (max-width:$m-bp) {
-            flex-direction: column;
+    &__image {
+        &__cont {
+            position: relative;
+            width: 100%;
+            height: 100%;
+            border-radius: 1.2rem;
         }
-    }
-
-    &__link {
-        transition: all .2s;
-
-        &:hover {
-            color: $color-font;
+        padding-right: 0rem;
+        flex: auto;
+        @media only screen and (max-width:$m-bp) {
+            display: none;
         }
     }
 }
