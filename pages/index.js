@@ -89,7 +89,7 @@ export default function Home() {
                 <LinkNext href='https://panion.com/'>
                   <a className='header__btnbox__work'> Demo</a>
                 </LinkNext>
-                
+
               </div>
             </div>
 
@@ -253,7 +253,7 @@ export default function Home() {
 
           </div>
         </section>
-    
+
         <section className="contact" id="contact1">
           <p className="projects__header margin-bottom-large">Just say hi.</p>
           <div className="contactCon">
@@ -285,11 +285,18 @@ export default function Home() {
               </div>
             </div>
             <div className="contactCon">
-              <form className="contactForm" name="contact" data-netlify="true">
+              <form className="contactForm" name="contact" data-netlify="true" data-netlify-honeypot="bot-field"
+                action="/success"
+              >
                 <input className="contactForm__field margin-bottom-small" name="name" type="text" placeholder="Your name*" required />
                 <input className="contactForm__field margin-bottom-small" name="email" type="email" placeholder="Your email*" required />
                 <input className="contactForm__field margin-bottom-small" name="website" type="text" placeholder="Your Website (if exists)" />
                 <textarea className="contactForm__field margin-bottom-small" name="message" placeholder="How can i Help?" rows="3"></textarea>
+                <p hidden>
+                  <label>
+                    Don’t fill this out: <input name="bot-field" />
+                  </label>
+                </p>
                 <button className="header__btnbox__talk margin-left-small">Get in Touch</button>
               </form>
             </div>
