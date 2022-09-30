@@ -20,6 +20,8 @@ $m-bp:60rem;
 }
 .infoCon{
     &__socials{
+        display: flex;
+        gap:2rem;
         img{
             margin-right: 2rem;
         }

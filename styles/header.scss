@@ -17,6 +17,9 @@ $m-bp: 60rem;
         justify-self: end;
         align-self: center;
         height: 100%;
+        @media only screen and (max-width:$m-bp) {
+            width: 100%;
+        }
     }
 
     &__img {

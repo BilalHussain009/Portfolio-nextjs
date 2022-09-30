@@ -8,8 +8,6 @@ export default function Home() {
 
   return (
     <div>
-      <h2 className="seoTags">Bilal Hussain Web Developer</h2>
-      <h3 className="seoTags">Bilal Hussain Web Developer</h3>
       <Head>
         <meta name="google-site-verification" content="ulmw69VpszQCQ2EURISAtVUSQfQEgDxiLtcsheVsdyY" />
         <title>Bilal Hussain | Web Developer | Portfolio | Bilal Hussain Website | Bilal Hussain Full Stack Web Developer</title>
@@ -48,11 +46,11 @@ export default function Home() {
           </div>
         </div>
         <section className="projects" id="project1">
-          <h3 className="projects__header margin-bottom-large">Latest projects</h3>
-          <div className='project flex_row margin-botton-medium '>
+          <p className="projects__header margin-bottom-large">Latest projects</p>
+          <div className='project flex_row margin-botton-medium ' style={{ backgroundColor: '#ebf4f5' }}>
             <div className='project__description flex_col_center'>
               <div className='project__description__header'>
-                <h3 className='project__description__header__name'>Maldini Fashion</h3>
+                <p className='project__description__header__name'>Maldini Fashion</p>
                 <p className='project__description__header__tags margin-top-tiny'>React.js | SSR | Ecommerce</p>
                 <p className='project__description__text margin-top-medium'> Single page web app made with react and redux from scratch. The
                   store has a login system, cart, review, sorting & search
@@ -73,7 +71,7 @@ export default function Home() {
               <div className="project__image__cont">
                 <Image
                   src="/project1.png"
-                  alt="Picture of the author"
+                  alt="project 1"
                   layout="fill"
                   objectFit="cover"
                 />
@@ -83,9 +81,39 @@ export default function Home() {
           <div className='project flex_row margin-botton-medium '>
             <div className='project__description flex_col_center'>
               <div className='project__description__header'>
-                <h3 className='project__description__header__name'>Panion</h3>
-                <p className='project__description__header__tags margin-top-tiny'>React.js | SSR | Social App</p>
-                <p className='project__description__text margin-top-medium'> Single page web app made with react and redux from scratch. The store has a login system, cart, review, sorting & search functionality. There is a PayPal sandbox integration as well, which can be converted to an actual PayPal gateway.</p>
+                <p className='project__description__header__name'>Panion</p>
+                <p className='project__description__header__tags margin-top-tiny'>Next.js | Chat | Sockets |Social App</p>
+                <p className='project__description__text margin-top-medium'> I implemented a realtime chat application using web sockets and firebase to allow users in communities to talk to each other and plan activities. I also implemented features to create group communities and create posts for communities.</p>
+              </div>
+              <div className='project__description__links'>
+                <LinkNext href='https://expensify-bilal-app.herokuapp.com/'>
+                  <a className='header__btnbox__work'> Demo</a>
+                </LinkNext>
+                <LinkNext href="https://github.com/BilalHussain009/Expensify-app-bilal" >
+                  <a className='header__btnbox__talk margin-left-small'> Github</a>
+                </LinkNext>
+              </div>
+            </div>
+
+            <div className="project__image flex_row_end">
+              <div className="project__image__cont">
+                <Image
+                  src="/project5.png"
+                  alt="project 5"
+                  layout="fill"
+                  objectFit="cover"
+                />
+              </div>
+            </div>
+          </div>
+          <div className='project flex_row margin-botton-medium ' style={{ backgroundColor: '#f2f3e2' }}>
+            <div className='project__description flex_col_center'>
+              <div className='project__description__header'>
+                <p className='project__description__header__name'>Expense Manager</p>
+                <p className='project__description__header__tags margin-top-tiny'>React | SCSS | Firebase | Authentication</p>
+                <p className='project__description__text margin-top-medium'>  A small expense app built to manage daily expenses and income,
+                  this app calculates the total amount spent and the remaining
+                  balance.</p>
               </div>
               <div className='project__description__links'>
                 <LinkNext href='https://expensify-bilal-app.herokuapp.com/'>
@@ -101,25 +129,28 @@ export default function Home() {
               <div className="project__image__cont">
                 <Image
                   src="/project2.png"
-                  alt="Picture of the author"
+                  alt="project 2"
                   layout="fill"
                   objectFit="cover"
                 />
               </div>
             </div>
           </div>
-          <div className='project flex_row margin-botton-medium '>
+          <div className='project flex_row margin-botton-medium ' style={{ backgroundColor: '#caf2ef' }}>
             <div className='project__description flex_col_center'>
               <div className='project__description__header'>
-                <h3 className='project__description__header__name'>Panion</h3>
-                <p className='project__description__header__tags margin-top-tiny'>React.js | SSR | Social App</p>
-                <p className='project__description__text margin-top-medium'> Single page web app made with react and redux from scratch. The store has a login system, cart, review, sorting & search functionality. There is a PayPal sandbox integration as well, which can be converted to an actual PayPal gateway.</p>
+                <p className='project__description__header__name'>Omni Food</p>
+                <p className='project__description__header__tags margin-top-tiny'>HTML | Responsive | Design</p>
+                <p className='project__description__text margin-top-medium'> A landing page built for Omni Food Restaurant, the page is fully
+                  responsive and has responsive images. It is built with pure
+                  HTML, CSS, and bootstrap. The Page features some small
+                  animations and transitions as well.</p>
               </div>
               <div className='project__description__links'>
-                <LinkNext href='https://expensify-bilal-app.herokuapp.com/'>
+                <LinkNext href='https://bilalhussain009.github.io/omnifood/'>
                   <a className='header__btnbox__work'> Demo</a>
                 </LinkNext>
-                <LinkNext href="https://github.com/BilalHussain009/Expensify-app-bilal" >
+                <LinkNext href="https://github.com/BilalHussain009/omnifood" >
                   <a className='header__btnbox__talk margin-left-small'> Github</a>
                 </LinkNext>
               </div>
@@ -129,7 +160,7 @@ export default function Home() {
               <div className="project__image__cont">
                 <Image
                   src="/project3.png"
-                  alt="Picture of the author"
+                  alt="project 3"
                   layout="fill"
                   objectFit="cover"
                 />
@@ -139,33 +170,33 @@ export default function Home() {
 
         </section>
         <section className="skills" id="skills1">
-          <h3 className="projects__header margin-bottom-large">What i do.</h3>
+          <p className="projects__header margin-bottom-large">What i do.</p>
           <div className="skills-cont">
             <div className="skill">
               <div className="skills--logo">
                 <Image src="/SVG/genius.svg" alt="logo-react" width={'100%'} height='100%' />
               </div>
-              <h4 className="projectHeading margin-top-small">Development of SPA</h4>
+              <p className="projectHeading margin-top-small">Development of SPA</p>
               <p id="" className="projectDescription margin-top-small">Need a single-page app with responsive UI?. I can make beautiful web apps in React based on your design,or improve old designs to look modern and beautiful.</p>
             </div>
             <div className="skill">
               <div className="skills--logo">
                 <Image src="/SVG/node-dot-js.svg" alt="logo-node" width={'100%'} height='100%' />
               </div>
-              <h4 className="projectHeading margin-top-small">REST API </h4>
+              <p className="projectHeading margin-top-small">REST API </p>
               <p className="projectDescription margin-top-small">I can create REST APIs from scratch. I will provide login authentications, file management, database schema, database maintenance.</p>
             </div>
             <div className="skill">
               <div className="skills--logo">
                 <Image src="/SVG/sphere.svg" alt="logo-web" width={'100%'} height='100%' />
               </div>
-              <h4 className="projectHeading margin-top-small">Web design and development </h4>
+              <p className="projectHeading margin-top-small">Web design and development </p>
               <p className="projectDescription margin-top-small">Do you need a fully customized web with impressive UI and UX? look no more i create beautiful web sites and web apps that scale and are SEO friendly.</p>
             </div>
           </div>
         </section>
         <section className="tech margin-top-medium">
-          <h3 className="projects__header margin-bottom-large">My Tech Stack</h3>
+          <p className="projects__header margin-bottom-large">My Tech Stack</p>
           <div className="tech__items">
             <div className="tech__item">
               <div className='skills--logo margin-top-small'>
@@ -224,26 +255,34 @@ export default function Home() {
 
           </div>
         </section>
-        {/* <section className="aboutme">
-          <h2 className="projects__header margin-bottom-large">About me</h2>
-          
-
-        </section> */}
+    
         <section className="contact" id="contact1">
-          <h3 className="projects__header margin-bottom-large">Just say hi.</h3>
+          <p className="projects__header margin-bottom-large">Just say hi.</p>
           <div className="contactCon">
             <div className="infoCon">
-              <h4 className="infoCon__info margin-botton-medium">I am available to discuss your project details and help you with your web app design and development.</h4>
+              <p className="infoCon__info margin-botton-medium">I am available to discuss your project details and help you with your web app design and development.</p>
               <div className="infoCon--emailDiv margin-botton-medium">
-                <h5 className="infoCon__emailMe">Email me at</h5>
-                <h5 className="projectHeading project__link ">bhussain.bese17seecs@seecs.edu.pk</h5>
+                <p className="infoCon__emailMe">Email me at</p>
+                <p className="projectHeading project__link ">bhussain.bese17seecs@seecs.edu.pk</p>
               </div>
               <div className="infoCon--follow">
-                <h5 className="infoCon__emailMe">Follow me </h5>
+                <p className="infoCon__emailMe">Follow me </p>
                 <div className="infoCon__socials margin-top-small">
-                  <a target="_blank" href="https://github.com/BilalHussain009"> <img className="followIcon" alt="Bilal Hussain github link" src="./SVG/github.svg" /></a>
-                  <a target="_blank" href="https://stackoverflow.com/users/10436299/bilal"><img className="followIcon" alt="Bilal Hussain stackoverflow link" src="./SVG/stackoverflow.svg" /></a>
-                  <a target="_blank" href="https://www.linkedin.com/in/bilal-hussain-29178b1b6/"><img className="followIcon" alt="Bilal Hussain linkedin" src="./SVG/linkedin.svg" /></a>
+                  <div className="followIcon">
+                    <LinkNext target="_blank" href="https://github.com/BilalHussain009">
+                      <Image alt="Bilal Hussain github link" src="/SVG/github.svg" width={'100%'} height={'100%'} />
+                    </LinkNext>
+                  </div>
+                  <div className="followIcon">
+                    <LinkNext target="_blank" href="https://stackoverflow.com/users/10436299/bilal">
+                      <Image alt="Bilal Hussain github link" src="/SVG/stackoverflow.svg" width={'100%'} height={'100%'} />
+                    </LinkNext>
+                  </div>
+                  <div className="followIcon">
+                    <LinkNext target="_blank" href="https://www.linkedin.com/in/bilal-hussain-29178b1b6">
+                      <Image alt="Bilal Hussain github link" src="/SVG/linkedin.svg" width={'100%'} height={'100%'} />
+                    </LinkNext>
+                  </div>
                 </div>
               </div>
             </div>
@@ -265,13 +304,13 @@ export default function Home() {
             </div>
             <div className="about--cont margin-left-medium">
               <h2>Bilal Hussain</h2>
-              <h3>Full Stack Web Developer & Designer</h3>
+              <p>Full Stack Web Developer & Designer</p>
             </div>
 
           </div>
           <div className="copyright">
-            <h4>&#169; {year} Bilal Hussain</h4>
-            <h5>Custom Made</h5>
+            <p>&#169; {year} Bilal Hussain</p>
+            <p>Custom Made</p>
           </div>
         </footer>
 
