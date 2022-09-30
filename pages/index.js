@@ -86,12 +86,10 @@ export default function Home() {
                 <p className='project__description__text margin-top-medium'> I implemented a realtime chat application using web sockets and firebase to allow users in communities to talk to each other and plan activities. I also implemented features to create group communities and create posts for communities.</p>
               </div>
               <div className='project__description__links'>
-                <LinkNext href='https://expensify-bilal-app.herokuapp.com/'>
+                <LinkNext href='https://panion.com/'>
                   <a className='header__btnbox__work'> Demo</a>
                 </LinkNext>
-                <LinkNext href="https://github.com/BilalHussain009/Expensify-app-bilal" >
-                  <a className='header__btnbox__talk margin-left-small'> Github</a>
-                </LinkNext>
+                
               </div>
             </div>
 
